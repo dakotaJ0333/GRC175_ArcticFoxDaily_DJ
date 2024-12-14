@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/* remember to put import here */
+
+*{
+    list-style: none;
+}
+
+{
+    box-sizing:border-box;
+    box-sizing: inherit;
+    list-style: none;
+}
+
+body {
+    
+    font-family: serif;
+    background-color: #E6F3F4;
+    margin: 0;
+    
+}
+
+/* link style */
+
+a:link, a:visited {
+    
+    color: #C04C03;
+}
+
+a:focus, a:hover, a:active {
+    
+    color: #f9AB33;
+}
+
+a {
+    
+    text-decoration: none;
+
+}
+
+
+/* header styles */
+
+header { 
+    
+    color: white;
+    background: url(Images/RayHen.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: left;
+    height: 180px;
+    
+}
+
+
+/* nav styles */
+
+nav, footer {
+    
+    font-family: sans-serif;
+    background-color: #BBE4EA;
+    
+}
+
+nav ul li a:link, nav ul li a:visited {
+    
+    color: #5DD6E2;
+    
+}
+
+nav ul li a;focus, nav ul li a;hover, nav ul li a;active, {
+    
+    color: #fff;
+    
+}
+
+nav ul {
+    
+    padding: 1px;
+    margin: 2;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    
+}
+
+nav ul li a {
+    
+  display: block;
+    border: 2px solid;
+    border-radius: 8ps;
+    padding: 8px 6px;
+    margin: 10px;
+    
+}
+
+/* main styles */
+
+main {
+    
+    font-family: serif;
+    background-color: white;
+    line-height: 1.8em;
+    color: #8DD4E0;
+    padding:100px;
+    border: double 8px #BBE4EA;
+    border-radius: 20px;
+    margin .5%;
+    height:auto;
+    
+}
+
+p img {
+    
+    height:1050px;
+}
+
+
+main img {
+    
+    float:center:
+    margin 0 300px 300px 300px;
+    
+    
+}
+
+h2 {
+    
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #5DD6E2;
+    border-bottom: 5px solid;
+    padding-left: 15px;
+    margin-top: 2.5%;
+    
+}
+
+
+/* misc styles */
+footer {
+    
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+        
+}
